@@ -58,10 +58,8 @@ Feature parity with [map.civinfo.net](https://map.civinfo.net):
 ## Installation
 
 ### Pre-built Releases
-Download the latest release for your platform from the [Releases](https://github.com/commonwealth/ironbank/releases) page:
-- **Windows**: `Ironbank_x.x.x_x64-setup.exe`
-- **macOS**: `Ironbank_x.x.x_universal.dmg`
-- **Linux**: `ironbank_x.x.x_amd64.deb` / `.AppImage`
+Download the latest release for your platform from the [Releases](https://github.com/jwm-dev/ironbank/releases/tag/v1.0.0) page.
+Currently, for pre-built release, only Windows is supported.
 
 ### Building from Source
 ```bash
