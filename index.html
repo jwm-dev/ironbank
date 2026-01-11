@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/Commonwealth_flag.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ironbank - The Commonwealth</title>
+    <style>
+      /* Prevent ANY scrollbar from appearing before app loads */
+      html, body { overflow: hidden !important; margin: 0; padding: 0; }
+      html::-webkit-scrollbar, body::-webkit-scrollbar, #root::-webkit-scrollbar { display: none !important; }
+      html, body, #root { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-dark-500 text-white" style="background-color: #0d1017; overflow: hidden;">
+    <div id="root" style="background-color: #0d1017; min-height: 100vh; overflow: hidden;"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+Copyright (C) 2024-2026 Commonwealth Ironbank Contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+================================================================================
+                              THIRD-PARTY LICENSES
+================================================================================
+
+This project uses the following third-party libraries and resources:
+
+--------------------------------------------------------------------------------
+RUNTIME DEPENDENCIES
+--------------------------------------------------------------------------------
+
+React (react, react-dom)
+  License: MIT
+  Copyright (c) Meta Platforms, Inc. and affiliates
+  https://github.com/facebook/react
+
+React Router (react-router-dom)
+  License: MIT
+  Copyright (c) React Training LLC 2015-2019
+  Copyright (c) Remix Software Inc. 2020-2021
+  Copyright (c) Shopify Inc. 2022-2023
+  https://github.com/remix-run/react-router
+
+Zustand
+  License: MIT
+  Copyright (c) 2019 Paul Henschel
+  https://github.com/pmndrs/zustand
+
+Leaflet
+  License: BSD-2-Clause
+  Copyright (c) 2010-2024, Volodymyr Agafonkin
+  Copyright (c) 2010-2011, CloudMade
+  https://github.com/Leaflet/Leaflet
+
+React Leaflet (react-leaflet)
+  License: Hippocratic License 3.0
+  Copyright (c) 2020 Paul Le Cam
+  https://github.com/PaulLeCam/react-leaflet
+
+Lucide React (lucide-react)
+  License: ISC
+  Copyright (c) 2020, Lucide Contributors
+  https://github.com/lucide-icons/lucide
+
+UUID (uuid)
+  License: MIT
+  Copyright (c) 2010-2020 Robert Kieffer and other contributors
+  https://github.com/uuidjs/uuid
+
+--------------------------------------------------------------------------------
+DEVELOPMENT DEPENDENCIES
+--------------------------------------------------------------------------------
+
+Vite
+  License: MIT
+  Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors
+  https://github.com/vitejs/vite
+
+TypeScript
+  License: Apache-2.0
+  Copyright (c) Microsoft Corporation
+  https://github.com/microsoft/TypeScript
+
+Tailwind CSS
+  License: MIT
+  Copyright (c) Tailwind Labs, Inc.
+  https://github.com/tailwindlabs/tailwindcss
+
+PostCSS
+  License: MIT
+  Copyright (c) 2013 Andrey Sitnik <andrey@sitnik.ru>
+  https://github.com/postcss/postcss
+
+Autoprefixer
+  License: MIT
+  Copyright (c) 2013 Andrey Sitnik <andrey@sitnik.ru>
+  https://github.com/postcss/autoprefixer
+
+--------------------------------------------------------------------------------
+DATA SOURCES
+--------------------------------------------------------------------------------
+
+PrismarineJS / minecraft-data
+  License: MIT
+  Copyright (c) 2015 PrismarineJS
+  https://github.com/PrismarineJS/minecraft-data
+  Used for: items.json, blocks.json, enchantments.json (Minecraft 1.21.8 data)
+  
+  The JSON data files in this project's assets/ directory are sourced from
+  the PrismarineJS minecraft-data repository, which provides machine-readable
+  Minecraft game data.
+
+--------------------------------------------------------------------------------
+EXTERNAL APIS AND RESOURCES
+--------------------------------------------------------------------------------
+
+CivMC Community Map (ccmap.github.io)
+  Map tile data and overlays for CivMC server
+  https://ccmap.github.io/
+  Used for: Map tiles, territory overlays, rail lines, portal/station markers
+  
+  The CivMC map data is community-contributed and used in accordance with
+  the CivMC community's open data sharing practices.
+
+Minecraft Wiki (minecraft.wiki)
+  Item and block texture images
+  https://minecraft.wiki/
+  Used for: Minecraft item sprite images
+  
+  Minecraft content and materials are trademarks and copyrights of
+  Mojang Studios and Microsoft Corporation. This project is not affiliated
+  with or endorsed by Mojang or Microsoft.
+
+Crafatar
+  License: MIT
+  Minecraft avatar/skin rendering service
+  https://crafatar.com/
+  Used for: Player head/avatar images
+  
+  Crafatar is an open-source project that renders Minecraft avatars.
+
+Google Fonts - Press Start 2P
+  License: OFL (SIL Open Font License)
+  Copyright (c) 2012, Cody "CodeMan38" Boisclair
+  https://fonts.google.com/specimen/Press+Start+2P
+  Used for: Retro pixel-style typography (logo)
+
+--------------------------------------------------------------------------------
+MINECRAFT TRADEMARK NOTICE
+--------------------------------------------------------------------------------
+
+Minecraft is a trademark of Mojang Studios and Microsoft Corporation.
+This project is a fan-made tool for the CivMC Minecraft server community
+and is not affiliated with, endorsed by, or connected to Mojang Studios,
+Microsoft Corporation, or the official Minecraft game.
+
+All Minecraft-related content, including but not limited to item names,
+textures, and game mechanics references, are used for informational and
+community purposes only.
+
+--------------------------------------------------------------------------------
+CIVMC COMMUNITY NOTICE
+--------------------------------------------------------------------------------
+
+This application was created for the Commonwealth nation on the CivMC
+Minecraft server. CivMC is a community-run Civilization-style Minecraft
+server.
+
+Commonwealth Flag (Commonwealth_flag.png)
+  The Commonwealth flag image is a community-created asset representing the
+  in-game nation of Commonwealth on CivMC. The original author is unknown,
+  but it is freely used within the CivMC Commonwealth community. If you are
+  the original creator and wish to be credited or have concerns about its
+  use, please open an issue on the project repository.
+
+================================================================================
+                           FULL AGPL-3.0 LICENSE TEXT
+================================================================================
+
+The complete text of the GNU Affero General Public License version 3
+can be found at: https://www.gnu.org/licenses/agpl-3.0.txt
+
+For convenience, a summary of your rights and obligations:
+
+You are free to:
+  - Use this software for any purpose
+  - Study how the software works and modify it
+  - Distribute copies of the software
+  - Distribute modified versions of the software
+
+Under the following conditions:
+  - You must provide the source code when distributing the software
+  - You must license derivative works under AGPL-3.0
+  - You must provide the source code to users who interact with the
+    software over a network (this is the "Affero" clause)
+  - You must preserve copyright notices and license information
+
+================================================================================

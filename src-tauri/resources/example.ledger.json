@@ -1,0 +1,294 @@
+{
+  "version": "1.0",
+  "name": "Example Ledger",
+  "createdAt": "2026-01-09T16:00:00.000Z",
+  "updatedAt": "2026-01-09T17:10:00.000Z",
+  "data": {
+    "players": [
+      { "ign": "reffelruz" },
+      { "ign": "jwm-dev", "notes": "IGN: jwmgregory\nAKA: fadedsoul" },
+      { "ign": "MAGICMARS345" },
+      { "ign": "PergySkeel" },
+      { "ign": "PoolPartyColin" },
+      { "ign": "fadedsoul" },
+      { "ign": "DrPlushy" }
+    ],
+    "groups": [
+      {
+        "id": "qm19y7d4wj",
+        "name": "Crown Corporation",
+        "notes": "State-owned CW company.",
+        "members": [
+          { "ign": "reffelruz" },
+          { "ign": "PergySkeel" },
+          { "ign": "PoolPartyColin" }
+        ],
+        "leader": { "ign": "reffelruz" }
+      },
+      {
+        "id": "xs1ddulmd8",
+        "name": "jwmCo",
+        "members": [
+          { "ign": "jwm-dev", "notes": "IGN: jwmgregory\nAKA: fadedsoul" },
+          { "ign": "fadedsoul" },
+          { "ign": "DrPlushy" }
+        ],
+        "leader": { "ign": "jwm-dev", "notes": "IGN: jwmgregory\nAKA: fadedsoul" }
+      }
+    ],
+    "customItems": [
+      {
+        "id": "custom_vk366gqmmws",
+        "name": "Fossil",
+        "baseItemId": "prismarine_shard",
+        "createdAt": "2026-01-09T17:03:47.692Z"
+      }
+    ],
+    "shops": [
+      {
+        "id": "087wg3i4zpta",
+        "name": "Slamm! Ore Exchange",
+        "description": "State-run CW ore exchange for Shopside.",
+        "owner": {
+          "type": "group",
+          "group": {
+            "id": "qm19y7d4wj",
+            "name": "Crown Corporation",
+            "notes": "State-owned CW company.",
+            "members": [
+              { "ign": "reffelruz" },
+              { "ign": "PergySkeel" },
+              { "ign": "PoolPartyColin" }
+            ],
+            "leader": { "ign": "reffelruz" }
+          }
+        },
+        "location": { "x": -3998, "y": 0, "z": 53 },
+        "trades": [
+          {
+            "id": "aac289db-c886-4b5a-9b29-e60c80dc758c",
+            "input": { "itemId": "lapis_ore", "quantity": { "amount": 64, "unit": "d" } },
+            "output": { "itemId": "lapis_lazuli", "quantity": { "amount": 72, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:10:15.838Z"
+          },
+          {
+            "id": "567f5092-8a45-4762-bdf3-c9d2bd5d322d",
+            "input": { "itemId": "coal_ore", "quantity": { "amount": 64, "unit": "d" } },
+            "output": { "itemId": "coal", "quantity": { "amount": 72, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:10:54.059Z"
+          },
+          {
+            "id": "88a022ee-3d96-4054-95d8-209ca48942f1",
+            "input": { "itemId": "iron_ore", "quantity": { "amount": 64, "unit": "d" } },
+            "output": { "itemId": "iron_ingot", "quantity": { "amount": 72, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:11:11.699Z"
+          },
+          {
+            "id": "9100dc9d-9ae3-4180-92f8-c53247830c37",
+            "input": { "itemId": "copper_ore", "quantity": { "amount": 64, "unit": "d" } },
+            "output": { "itemId": "copper_ingot", "quantity": { "amount": 72, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:11:25.500Z"
+          },
+          {
+            "id": "b51b8388-43ce-4539-9e8f-e4f55b3d1911",
+            "input": { "itemId": "iron_ingot", "quantity": { "amount": 10, "unit": "d" } },
+            "output": { "itemId": "diamond", "quantity": { "amount": 1, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:11:53.829Z"
+          },
+          {
+            "id": "60004473-262b-4b76-9a21-5c2e14860850",
+            "input": { "itemId": "diamond", "quantity": { "amount": 1, "unit": "d" } },
+            "output": { "itemId": "emerald", "quantity": { "amount": 3, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:12:19.832Z"
+          },
+          {
+            "id": "54ba013d-2e10-4153-9151-d8c0371c7dec",
+            "input": { "itemId": "gold_block", "quantity": { "amount": 5, "unit": "d" } },
+            "output": { "itemId": "diamond", "quantity": { "amount": 1, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:12:33.889Z"
+          },
+          {
+            "id": "dab48efb-9bd9-4df7-9247-b39e0390e3db",
+            "input": { "itemId": "iron_block", "quantity": { "amount": 8, "unit": "d" } },
+            "output": { "itemId": "diamond_block", "quantity": { "amount": 1, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:13:05.081Z"
+          },
+          {
+            "id": "b4c72c00-508c-4aec-b4f6-82aab59ae142",
+            "input": { "itemId": "raw_gold", "quantity": { "amount": 5, "unit": "d" } },
+            "output": { "itemId": "gold_ingot", "quantity": { "amount": 5, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:14:07.821Z"
+          }
+        ],
+        "tags": ["ore", "exchange", "currency", "diamond", "iron", "money"],
+        "createdAt": "2026-01-09T16:13:16.334Z",
+        "updatedAt": "2026-01-09T16:14:21.833Z",
+        "isActive": true
+      },
+      {
+        "id": "0ik2e54zbgg",
+        "name": "Pergy's Golden Rail Grill",
+        "description": "Food, leather, and consumables outlet.",
+        "owner": { "type": "individual", "player": { "ign": "PergySkeel" } },
+        "location": { "x": -4024, "y": -7, "z": 65 },
+        "trades": [
+          {
+            "id": "06a25f27-4750-4480-aab4-6d2d0917af4c",
+            "input": { "itemId": "iron_ingot", "quantity": { "amount": 12, "unit": "d" } },
+            "output": { "itemId": "apple", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:18:20.391Z"
+          },
+          {
+            "id": "b3cab2c2-3acf-4960-8725-e013b926874e",
+            "input": { "itemId": "diamond", "quantity": { "amount": 1, "unit": "d" } },
+            "output": { "itemId": "leather", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:18:30.284Z"
+          },
+          {
+            "id": "908242d5-908e-4afd-81d3-1af288ebbed9",
+            "input": { "itemId": "iron_ingot", "quantity": { "amount": 8, "unit": "d" } },
+            "output": { "itemId": "cooked_cod", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:18:42.696Z"
+          },
+          {
+            "id": "8ede56e8-318d-4335-b2d3-11651c92dc1d",
+            "input": { "itemId": "iron_ingot", "quantity": { "amount": 8, "unit": "d" } },
+            "output": { "itemId": "cooked_salmon", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:19:09.173Z"
+          },
+          {
+            "id": "28f57934-3c65-4009-91e0-18f6c79f93a9",
+            "input": { "itemId": "iron_ingot", "quantity": { "amount": 8, "unit": "d" } },
+            "output": { "itemId": "cooked_rabbit", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:19:26.714Z"
+          },
+          {
+            "id": "b2d7fa3a-7a63-4722-bca4-128097578b14",
+            "input": { "itemId": "diamond", "quantity": { "amount": 1, "unit": "d" } },
+            "output": { "itemId": "cooked_porkchop", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:19:43.906Z"
+          },
+          {
+            "id": "4e8b9d0f-25b0-47a3-956d-291dcae2509d",
+            "input": { "itemId": "iron_ingot", "quantity": { "amount": 10, "unit": "d" } },
+            "output": { "itemId": "cooked_mutton", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:20:16.223Z"
+          },
+          {
+            "id": "116cf049-9888-4754-b13e-df34788fdb0b",
+            "input": { "itemId": "diamond", "quantity": { "amount": 1, "unit": "d" } },
+            "output": { "itemId": "cooked_beef", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:20:49.659Z"
+          },
+          {
+            "id": "9100f3d8-7644-494e-8516-5ab8160cd7d7",
+            "input": { "itemId": "diamond", "quantity": { "amount": 1, "unit": "d" } },
+            "output": { "itemId": "cooked_chicken", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:20:54.062Z"
+          },
+          {
+            "id": "1dd977cf-b630-4545-b6de-74f1c0f1f795",
+            "input": { "itemId": "iron_ingot", "quantity": { "amount": 8, "unit": "d" } },
+            "output": { "itemId": "honey_bottle", "quantity": { "amount": 8, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:21:07.631Z"
+          },
+          {
+            "id": "ae371749-17a1-4ca8-b8bf-6b7a6dc5d1ab",
+            "input": { "itemId": "iron_ingot", "quantity": { "amount": 12, "unit": "d" } },
+            "output": { "itemId": "honey_block", "quantity": { "amount": 32, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:21:19.457Z"
+          },
+          {
+            "id": "8d4267a6-d59e-4b5f-89dc-17a378fda35b",
+            "input": { "itemId": "diamond", "quantity": { "amount": 1, "unit": "d" } },
+            "output": { "itemId": "honeycomb", "quantity": { "amount": 64, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T16:21:48.282Z"
+          }
+        ],
+        "tags": ["food", "leather", "honey"],
+        "createdAt": "2026-01-09T16:22:02.780Z",
+        "updatedAt": "2026-01-09T16:22:02.780Z",
+        "isActive": true
+      },
+      {
+        "id": "ig9rkwq2b9p",
+        "name": "Yellowstone Fossil Exchange",
+        "owner": { "type": "individual", "player": { "ign": "PergySkeel" } },
+        "location": { "x": -4024, "y": -7, "z": 92 },
+        "trades": [
+          {
+            "id": "dc87c973-014a-4ba4-be38-c792099aa4c0",
+            "input": { "itemId": "custom_vk366gqmmws", "quantity": { "amount": 64, "unit": "d" } },
+            "output": { "itemId": "diamond", "quantity": { "amount": 7, "unit": "item" } },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T17:03:27.097Z"
+          }
+        ],
+        "tags": ["fossil", "exchange"],
+        "createdAt": "2026-01-09T17:02:52.128Z",
+        "updatedAt": "2026-01-09T17:04:23.175Z",
+        "isActive": true
+      },
+      {
+        "id": "i0o2b2eun4l",
+        "name": "Crown Armaments",
+        "owner": {
+          "type": "group",
+          "group": {
+            "id": "qm19y7d4wj",
+            "name": "Crown Corporation",
+            "notes": "State-owned CW company.",
+            "members": [
+              { "ign": "reffelruz" },
+              { "ign": "PergySkeel" },
+              { "ign": "PoolPartyColin" }
+            ],
+            "leader": { "ign": "reffelruz" }
+          }
+        },
+        "location": { "x": -4018, "y": -1, "z": 59 },
+        "trades": [
+          {
+            "id": "9172347c-12c3-4771-9cbe-3d7311c6afe4",
+            "input": { "itemId": "diamond", "quantity": { "amount": 14, "unit": "d" } },
+            "output": {
+              "itemId": "diamond_axe",
+              "quantity": { "amount": 1, "unit": "item" },
+              "enchantments": [
+                { "enchantmentId": "unbreaking", "level": 3 },
+                { "enchantmentId": "efficiency", "level": 5 }
+              ]
+            },
+            "isActive": true,
+            "lastUpdated": "2026-01-09T17:05:40.598Z"
+          }
+        ],
+        "tags": ["tools", "armor", "swords", "diamond", "enchanted", "enchants"],
+        "createdAt": "2026-01-09T17:06:22.239Z",
+        "updatedAt": "2026-01-09T17:06:22.239Z",
+        "isActive": true
+      }
+    ]
+  }
+}
